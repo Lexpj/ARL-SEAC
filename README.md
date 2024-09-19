@@ -3,12 +3,7 @@
 This repository is the official implementation of [Shared Experience Actor Critic](https://arxiv.org/abs/2006.07169). 
 
 ## Requirements
-
-For the experiments in LBF and RWARE, please install from:
-- [Level Based Foraging Official Repo](https://github.com/uoe-agents/lb-foraging)
-- [Multi-Robot Warehouse Official Repo](https://github.com/uoe-agents/robotic-warehouse)
-
-Also requires, PyTorch 1.6+
+Check requirements.txt. Tested on Python 3.8.0 with dependencies stated in requirements.txt. Install via `pip install -r requirements.txt`
 
 ## Training - SEAC
 To train the agents in the paper, navigate to the seac directory:
