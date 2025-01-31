@@ -1,0 +1,5 @@
+- We could not get GPU to work, since we assume this code has been writting to be optimized for CPU instead
+- Don't use multiple CPU's per task, since it may crash during times where one CPU writes to the log file and the other CPU has not finished computing
+- Replace your own email
+- Adjust the number of timesteps that the environment is allowed to make MANUALLY. 
+- Currently, the time has been set exceedingly high (for most runs). This is just a safeguard: most runs finish faster.
