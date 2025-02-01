@@ -2,6 +2,8 @@
 
 This repository builds upon [Shared Experience Actor Critic](https://arxiv.org/abs/2006.07169). In this repository, trained agents, experiments, and other files have been included that were part of the experimentation we did for the course Seminar Advanced Deep Reinforcement Learning at Leiden University. 
 
+The trained runs along with their log files are currently not included within this repository. GitHub has problems when uploading these files. Upon request, we can send over these files for completeness! The results of all experiments done in [the paper](https://github.com/Lexpj/ARL-SEAC/ARL.pdf) can be requested.
+
 ## Requirements
 Check requirements.txt. Tested on Python 3.8.0 with dependencies stated in requirements.txt. Install via `pip install -r requirements.txt`
 NOTE: requirements are updated and different than the [original code base](https://github.com/uoe-agents/seac)
